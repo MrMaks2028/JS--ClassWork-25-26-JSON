@@ -1,0 +1,17 @@
+[
+    {
+        "name": "--font-color",
+        "light": "#000",
+        "dark": "#FFF"
+    },
+    {
+        "name": "--bg-color",
+        "light": "#FFF",
+        "dark": "#000"
+    },
+    {
+        "name": "--card-bg-color",
+        "light": "#e36c6c",
+        "dark": "#f627a6"
+    }
+]

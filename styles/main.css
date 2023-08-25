@@ -1,0 +1,74 @@
+/* =====GLOBAL=SETTINGS===== */
+:root {
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--font-color);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+/* =====HEADERS===== */
+h1 { 
+    margin: 10px;
+    font-size: 3em; 
+}
+h2 { 
+    margin: 10px;
+    font-size: 2em; 
+}
+
+
+/* =====CARD===== */
+.card {
+    margin: 30px;
+    padding: 20px;
+    border: 3px solid var(--font-color);
+    max-width: 600px;
+
+    background-color: var(--card-bg-color);
+}
+
+.card-title {
+    font-size: 1.5em;
+}
+
+.card-description {
+    margin-top: 16px;
+    text-align: justify;
+}
+
+
+/* =====THEME=BAR===== */
+.theme-bar {
+    padding: 20px 30px;
+    border: 3px solid var(--font-color);
+
+    background-color: var(--bg-color);
+
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#btn-switch-theme {
+    padding: 10px 12px;
+    border: 3px solid var(--font-color);
+    cursor: pointer;
+    user-select: none;
+}
+
+#theme-status {
+    margin-top: 10px;
+    text-align: center;
+}

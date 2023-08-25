@@ -1,0 +1,14 @@
+{
+    "day": 1,
+    "month": 2,
+    "year": 2024,
+    "note": "Визит к нотариусу",
+    "location": {
+        "index": 620000,
+        "city": "Екатеринбург",
+        "street": "Энгельса",
+        "homeNumber": 36
+    },
+    "tags": ["нотариус", "Екб"],
+    "notification": true
+}
